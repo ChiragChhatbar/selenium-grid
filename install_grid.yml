@@ -1,7 +1,7 @@
 ---
 
 - hosts: selenium
-  remote_user: ubuntu
+  remote_user: chirag.chhatbar
   become: true
   become_user: root
 
@@ -23,7 +23,7 @@
 
 
 - hosts: selenium-grid
-  remote_user: ubuntu
+  remote_user: chirag.chhatbar
   become: true
   become_user: root
   roles:
@@ -31,7 +31,7 @@
 
 
 - hosts: selenium-node
-  remote_user: ubuntu
+  remote_user: chirag.chhatbar
   become: true
   become_user: root
   roles:
